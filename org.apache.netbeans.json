@@ -21,6 +21,13 @@
     ],
     "modules": [
         {
+            "name": "openjdk",
+            "buildsystem": "simple",
+            "build-commands": [
+                "/usr/lib/sdk/openjdk10/installjdk.sh"
+            ]
+        },
+        {
             "name": "icns",
             "sources": [
                 {
@@ -28,7 +35,8 @@
                     "url": "https://git.code.sf.net/p/icns/code",
                     "commit": "194962"
                 }
-            ]
+            ],
+            "cleanup": ["*"]
         },
         {
             "name": "netbeans",
@@ -68,7 +76,7 @@
                     "type": "script",
                     "dest-filename": "netbeans-desktop",
                     "commands": [
-                        "exec /app/netbeans/bin/netbeans \"$@\""
+                        "exec /app/netbeans/bin/netbeans  --jdkhome /app/jdk \"$@\""
                     ]
                 }
             ],
