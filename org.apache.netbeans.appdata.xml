@@ -29,7 +29,7 @@
   <url type="homepage">https://netbeans.apache.org/</url>
   <update_contact>desertconsulting@gmail.com</update_contact>
   <releases>
-    <release version="9.0" date="2018-07-29"/>
+    <release version="10.0" date="2018-12-27"/>
   </releases>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-cartoon">none</content_attribute>

@@ -4,7 +4,7 @@
     "runtime-version": "18.08",
     "sdk": "org.freedesktop.Sdk",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.openjdk10"
+        "org.freedesktop.Sdk.Extension.openjdk11"
     ],
     "command": "netbeans-desktop",
     "separate-locales": false,
@@ -24,7 +24,7 @@
             "name": "openjdk",
             "buildsystem": "simple",
             "build-commands": [
-                "/usr/lib/sdk/openjdk10/installjdk.sh"
+                "/usr/lib/sdk/openjdk11/installjdk.sh"
             ]
         },
         {
@@ -61,8 +61,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://mirrors.whoishostingthis.com/apache/incubator/netbeans/incubating-netbeans-java/incubating-9.0/incubating-netbeans-java-9.0-bin.zip",
-                    "sha1": "e03f8bec1d56bd50287e4827282cdbbaae37812e"
+                    "url": "http://mirrors.whoishostingthis.com/apache/incubator/netbeans/incubating-netbeans/incubating-10.0/incubating-netbeans-10.0-bin.zip",
+                    "sha512": "ba83575f42c1d5515e2a5336a621bc2b4087b2e0bcacb6edb76f376f8272555609bdd4eefde8beae8ffc6c1a7db2fb721b844638ce27933c3dd78f71cbb41ad8"
                 },
                 {
                     "type": "file",
