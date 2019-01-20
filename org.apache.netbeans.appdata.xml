@@ -4,8 +4,8 @@
   <id>org.apache.netbeans.desktop</id>
   <metadata_license>CC-BY-SA-3.0</metadata_license>
   <project_license>Apache-2.0</project_license>
-  <name>Netbeans</name>
-  <summary>Netbeans - Apache Java IDE. Fits the Pieces Together</summary>
+  <name>NetBeans</name>
+  <summary>NetBeans - Apache Java IDE. Fits the Pieces Together</summary>
   <description>
     <p>
           Quickly and easily develop desktop, mobile and web applications
