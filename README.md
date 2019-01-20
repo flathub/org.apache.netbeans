@@ -1,31 +1,31 @@
 # org.apache.netbeans
-Flatpak for Apache Netbeans (https://netbeans.apache.org/)
+Flatpak for Apache NetBeans (https://netbeans.apache.org/)
 
-## How to build Apache Netbeans
+## How to build Apache NetBeans
 
 ```
 flatpak-builder --repo=repo flatpakbuildir org.apache.netbeans.json --force-clean
 ```
 
-## Add Apache Netbeans repo to remote
+## Add Apache NetBeans repo to remote
 
 ```
 flatpak remote-add --user mynetbeans repo
 ```
 
-## How to install Apache Netbeans from flatpak
+## How to install Apache NetBeans from flatpak
 
 ```
 flatpak install --user mynetbeans org.apache.netbeans
 ```
 
-## How to run Apache Netbeans
+## How to run Apache NetBeans
 
 ```
 flatpak run org.apache.netbeans
 ```
 
-## How tu uninstall Apache Netbeans
+## How tu uninstall Apache NetBeans
 
 ```
 flatpak uninstall --user org.apache.netbeans
