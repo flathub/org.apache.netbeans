@@ -25,7 +25,7 @@ flatpak install --user mynetbeans org.apache.netbeans
 flatpak run org.apache.netbeans
 ```
 
-## How tu uninstall Apache NetBeans
+## How to uninstall Apache NetBeans
 
 ```
 flatpak uninstall --user org.apache.netbeans
