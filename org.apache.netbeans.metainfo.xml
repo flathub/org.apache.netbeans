@@ -57,8 +57,8 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <developer_name>Apache Software Foundation</developer_name>
-  <url type="bugtracker">http://netbeans.apache.org/participate/report-issue.html</url>
-  <url type="donation">http://netbeans.apache.org/participate/index.html</url>
-  <url type="help">http://netbeans.apache.org/help/index.html</url>
+  <url type="bugtracker">https://netbeans.apache.org/participate/report-issue.html</url>
+  <url type="donation">https://netbeans.apache.org/participate/index.html</url>
+  <url type="help">https://netbeans.apache.org/help/index.html</url>
 
 </component>
