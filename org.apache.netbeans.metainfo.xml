@@ -29,6 +29,7 @@
   <url type="homepage">https://netbeans.apache.org/</url>
   <update_contact>desertconsulting@gmail.com</update_contact>
   <releases>
+    <release version="11.3" date="2020-02-24"/>
     <release version="11.2" date="2019-10-25"/>
     <release version="11.1" date="2019-07-22"/>
     <release version="11.0" date="2019-04-04"/>
