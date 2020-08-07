@@ -61,8 +61,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://downloads.apache.org/netbeans/netbeans/11.3/netbeans-11.3-bin.zip",
-                    "sha512": "ae828836138b5a4156d58df24dd4053be58018cb6b5beb179cb0f4cd8b5db72d2a7356a434d01157aacb78d228732950cf4e3a0b6c725da8e053b6ccd91075d6"
+                    "url": "https://builds.apache.org/job/netbeans-linux/lastSuccessfulBuild/artifact/nbbuild/NetBeans-dev-netbeans-linux-1686-on-20200805-release.zip",
+                    "sha512": "8c4645e1fd21f3533d03196389d170429bd5bf0bbebe6d5d79519c1eb20155d31cae0346bf181b46d596d45e7a9d1e45987f8242a7af1e0a35419b15347cc06d"
                 },
                 {
                     "type": "file",
