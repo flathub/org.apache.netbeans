@@ -61,8 +61,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://downloads.apache.org/netbeans/netbeans/12.0/netbeans-12.0-bin.zip",
-                    "sha512": "91030c9628a08acd85f1a58a7f71eec2e57dc85841c1c475cc6311335b5d8cdc10c1198274b9668b7f61a28d04b07661247dc1c3e36b8e29214aec3748e499e4"
+                    "url": "https://builds.apache.org/job/netbeans-linux/lastSuccessfulBuild/artifact/nbbuild/NetBeans-dev-netbeans-linux-1686-on-20200805-release.zip",
+                    "sha512": "8c4645e1fd21f3533d03196389d170429bd5bf0bbebe6d5d79519c1eb20155d31cae0346bf181b46d596d45e7a9d1e45987f8242a7af1e0a35419b15347cc06d"
                 },
                 {
                     "type": "file",
