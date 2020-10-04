@@ -32,7 +32,7 @@
   <url type="homepage">https://netbeans.apache.org/</url>
   <update_contact>desertconsulting@gmail.com</update_contact>
   <releases>
-    <release version="12.1" date="2020-08-15">
+    <release version="12.1" date="2020-10-03">
       <description>
         Jakarta EE 8
 
@@ -78,7 +78,7 @@
         Launcher detects JDK installed by SDKMAN on Linux and Mac.
       </description>
     </release>
-    <release version="12.0" date="2020-10-03">
+    <release version="12.0" date="2020-06-09">
       <description>
       Apache NetBeans 12.0 adds support for the latest Java language features, integrates new code donations from Oracle for Java Web development, enhances its best of breed Apache Maven tooling, brings multiple enhancements for users of Gradle, includes built-in features for Payara and WildFly for the first time, introduces new out of the box templates for JavaFX, upgrades and extends its PHP editor, provides new dark look and feel options, and includes a wide range of fixes.All features provided by Apache NetBeans are supported out of the box, without additional plugins needing to be installed, and all for free. Apache NetBeans 12.0 is the first LTS release of NetBeans as a top level Apache project.We would like to thank all contributors, the community, and the Apache Software Foundation for the great co-operation and enthusiasm enabling this complex and exciting project to continue to inspire and be of use to developers all over the world.
     </description>
