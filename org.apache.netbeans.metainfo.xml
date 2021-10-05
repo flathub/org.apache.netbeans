@@ -32,6 +32,103 @@
   <url type="homepage">https://netbeans.apache.org/</url>
   <update_contact>desertconsulting@gmail.com</update_contact>
   <releases>
+    <release version="12.5" date="2021-09-13">
+      <description>
+<p>Java Enhancements
+<p>Java
+<ul>
+<li>Temporarily allow setting of SecurityManager: https://github.com/apache/netbeans/pull/3003 </li>
+<li> [NETBEANS-5661] - Added regular expression window and hint: https://github.com/apache/netbeans/pull/2953</li>
+<li>Prefer .class execution over .java if the class already exists: https://github.com/apache/netbeans/pull/3036</li>
+<li>[NETBEANS-5704] when generating --patch-module option, also use the generated source roots. Java: https://github.com/apache/netbeans/pull/2977</li>
+<li>[NETBEANS-5832] Fixing compilation of static initializer for vanilla indexing.: https://github.com/apache/netbeans/pull/3054</li>
+<li>Adding declarative Java hints to the LSP server: https://github.com/apache/netbeans/pull/2905</li>
+</ul>
+</p>
+<p>Gradle
+<ul>
+<li>Report progress from Gradle’s CreateFromTemplateHandler Gradle LSP bug: https://github.com/apache/netbeans/pull/3044</li>
+<li>Fixed source+javadoc Gradle download Gradle LSP bug: https://github.com/apache/netbeans/pull/3040</li>
+<li>Source/javadoc attacher must report download actions as enabled. Gradle Java bug: https://github.com/apache/netbeans/pull/3029</li>
+<li>Gradle Action Providers can disable an action. API Change Gradle enhancement: https://github.com/apache/netbeans/pull/3004</li>
+<li>LSP server informs client about unsuccessful launch. Gradle LSP: https://github.com/apache/netbeans/pull/3006</li>
+<li>Prevent deadlock - Workspace shared IO supports close on input stream. Gradle LSP: https://github.com/apache/netbeans/pull/3019</li>
+<li>Support for configurations in Gradle Gradle LSP enhancement: https://github.com/apache/netbeans/pull/2969</li>
+<li>[NETBEANS-5768] Recognize gradle projects with settings.gradle only file: https://github.com/apache/netbeans/pull/3028</li>
+<li>[NETBEANS-2373] Better than nothing support for Gradle Distribution dirs Gradle: https://github.com/apache/netbeans/pull/2920</li>
+<li>[NETBEANS-5668] Fix slipping &lt;br/&gt;-s in the Project Problem Dialog Gradle: https://github.com/apache/netbeans/pull/2944</li>
+<li>[NETBEANS-4252] Added PathFinder to Gradle Build Scripts Node Gradle: https://github.com/apache/netbeans/pull/2933</li>
+</ul>
+</p>
+<p>Maven
+<ul>
+<li>Support for disabling actions in Maven (used by Micronaut) API Change Maven enhancement: https://github.com/apache/netbeans/pull/3016</li>
+<li>[NETBEANS-5803] Handle Maven projects with https name space. Maven: https://github.com/apache/netbeans/pull/3012</li>
+<li>[NETBEANS-5143] Fixes Maven web app twice deployment issue: https://github.com/apache/netbeans/pull/3005 </li>
+</ul>
+</p>
+<p>Micronaut
+<ul>
+<li>Support for Micronaut’s automatic restarts (mn:run) for Maven API Change Java Maven enhancement: https://github.com/apache/netbeans/pull/2948</li>
+<li>LSP: Provide hover information in Micronaut yaml files. LSP: https://github.com/apache/netbeans/pull/2955</li>
+<li>Micronaut configuration completion and navigation improvements LSP: https://github.com/apache/netbeans/pull/2962</li>
+<li>Micronaut: Allow for creating project on JDK 16.: https://github.com/apache/netbeans/pull/3058</li>
+</ul>
+</p>
+<p>Payara
+<ul>
+<li>Fixes fetching the Payara Server list in private network: https://github.com/apache/netbeans/pull/3018</li>
+</ul>
+</p>
+</p>
+<p>PHP Enhancements
+<ul>
+<li>[NETBEANS-5678] Use the URL of the forked repository of the Skeleton Generator: https://github.com/apache/netbeans/pull/3052 </li>
+<li>[NETBEANS-5719] Unused property hint is shown when the property is used as a constructor argument: https://github.com/apache/netbeans/pull/3065 </li>
+<li>[NETBEANS-5480] Add an option(system property) to disable the feature to fold PHP tags: https://github.com/apache/netbeans/pull/3069 </li>
+</ul>
+</p>
+<p>C/C++ Enhancements
+<ul>
+<li>Fixing newly created cpplite project, avoiding starting the C/C++ LSP server when the configuration is not readable: https://github.com/apache/netbeans/pull/2877</li>
+<li>In cpplite project, when reading configuration, an empty string should not be considered a valid configuration: https://github.com/apache/netbeans/pull/2904 </li>
+</ul>
+</p>
+<p>Miscellaneous Enhancements
+<p>General
+<ul>
+<li>LSP: Find usages should search also in project dependecies. LSP: https://github.com/apache/netbeans/pull/2950</li>
+<li>[NETBEANS-5492] change test proxy connection url to apache: https://github.com/apache/netbeans/pull/2830</li>
+<li>[NETBEANS-5698] Fix tabcontrol painting on MacOS retina displays (Aqua LAF): https://github.com/apache/netbeans/pull/2970</li>
+<li>[NETBEANS-4953] Fixing handling of WSL-based URIs.: https://github.com/apache/netbeans/pull/2988</li>
+<li>[NETBEANS-5673] Modernize tab controls in the Windows LAF: https://github.com/apache/netbeans/pull/2967</li>
+<li>[NETBEANS-5697] Various other LAF/HiDPI improvements on Windows: https://github.com/apache/netbeans/pull/2965</li>
+<li>[NETBEANS-5726] Fix JCheckboxMenuItem state for 'Show Editor Tooolbar': https://github.com/apache/netbeans/pull/2979</li>
+<li>[NETBEANS-4150] added a KeyringProvider using libsecret for new versions of Gnome: https://github.com/apache/netbeans/pull/2906</li>
+</ul>
+</p>
+<p>VSCode
+<ul>
+<li>Add Run with configuration into code lenses.: https://github.com/apache/netbeans/pull/2995</li>
+<li>Completion provider for VS Code’s launch.json.: https://github.com/apache/netbeans/pull/3025</li>
+<li>Debugger attach needs to be initialized.: https://github.com/apache/netbeans/pull/2991</li>
+<li>New from Template for VSCode.: https://github.com/apache/netbeans/pull/2882</li>
+<li>Run/Debug single .java files outside of project in VSCode.: https://github.com/apache/netbeans/pull/2938</li>
+<li>[NETBEANS-5346] Debugger attach in VSCode extension.: https://github.com/apache/netbeans/pull/2978</li>
+</ul>
+</p>
+<p>Libraries
+<ul>
+<li>[NETBEANS-5503] Update JUnit from 4.13.1 to 4.13.2 Upgrade Library: https://github.com/apache/netbeans/pull/2831</li>
+<li>Upgrading Graal.js to 20.3 LTS version: https://github.com/apache/netbeans/pull/2707</li>
+<li>[NETBEANS-3439] - Upgrade JavaCC from 3.2 to 7.0.5: https://github.com/apache/netbeans/pull/1662</li>
+<li>Improving usability of New from Template in VSNetBeans.: https://github.com/apache/netbeans/pull/3010</li>
+<li>Jakarta EE 9 GlassFish 6 Support: https://github.com/apache/netbeans/pull/2902</li>
+</ul>
+</p>
+</p>
+      </description>
+    </release>
     <release version="12.4" date="2021-05-19">
       <description>
 
