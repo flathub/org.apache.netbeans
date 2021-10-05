@@ -33,6 +33,7 @@
   <update_contact>desertconsulting@gmail.com</update_contact>
   <releases>
     <release version="12.5" date="2021-09-13">
+      <url type="details">http://netbeans.apache.org/download/nb125/index.html</url>
       <description>
 <p>Java Enhancements
 <p>Java
