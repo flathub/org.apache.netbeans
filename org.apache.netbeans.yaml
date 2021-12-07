@@ -1,73 +1,69 @@
----
-  app-id: "org.apache.netbeans"
-  runtime: "org.freedesktop.Sdk"
-  runtime-version: "21.08"
-  sdk: "org.freedesktop.Sdk"
-  sdk-extensions: 
-    - "org.freedesktop.Sdk.Extension.openjdk11"
-  command: "netbeans-desktop"
-  separate-locales: false
-  finish-args: 
-    - "--share=ipc"
-    - "--socket=x11"
-    - "--share=network"
-    - "--device=dri"
-    - "--filesystem=host"
-    - "--talk-name=org.freedesktop.Notifications"
-    - "--talk-name=org.freedesktop.secrets"
-    - "--filesystem=xdg-run/keyring"
-    - "--device=all"
-  modules: 
-    - 
-      name: "openjdk"
-      buildsystem: "simple"
-      build-commands: 
-        - "/usr/lib/sdk/openjdk11/installjdk.sh"
-    - 
-      name: "icns"
-      sources: 
-        - 
-          type: "git"
-          url: "https://git.code.sf.net/p/icns/code"
-          commit: "194962"
-      cleanup: 
-        - "*"
-    - 
-      name: "netbeans"
-      buildsystem: "simple"
-      build-commands: 
-        - "install -dm755 /app/bin"
-        - "install -dm755 /app/netbeans"
-        - "cp -r * /app/netbeans/"
-        - "chmod -R a-s,go+rX,go-w /app/netbeans"
-        - "icns2png -x -o . -d 32 -s 512x512 nb/netbeans.icns"
-        - "icns2png -x -o . -d 32 -s 256x256 nb/netbeans.icns"
-        - "icns2png -x -o . -d 32 -s 32x32 nb/netbeans.icns"
-        - "icns2png -x -o . -d 32 -s 16x16 nb/netbeans.icns"
-        - "install -Dm644 netbeans_512x512x32.png /app/share/icons/hicolor/512x512/apps/org.apache.netbeans.png"
-        - "install -Dm644 netbeans_256x256x32.png /app/share/icons/hicolor/256x256/apps/org.apache.netbeans.png"
-        - "install -Dm644 netbeans_32x32x32.png /app/share/icons/hicolor/32x32/apps/org.apache.netbeans.png"
-        - "install -Dm644 netbeans_16x16x32.png /app/share/icons/hicolor/16x16/apps/org.apache.netbeans.png"
-        - "install -Dm644 org.apache.netbeans.desktop /app/share/applications/org.apache.netbeans.desktop"
-        - "install -Dm644 org.apache.netbeans.metainfo.xml /app/share/metainfo/org.apache.netbeans.metainfo.xml"
-        - "install -m755 netbeans-desktop /app/bin/netbeans-desktop"
-      sources: 
-        - type: "archive"
-          url: "https://archive.apache.org/dist/netbeans/netbeans/12.5/netbeans-12.5-bin.zip"
-          sha512: "3186f6281c7008d8a3aa2ca7df2b291c1c72b4bb82cd38ebf744c33fd477ed38b8cb859740ed27bb8c498ff3f59354a70627a6f16b775207b5cd2813ebeaa7fc"
-          x-checker-data:
-            type: html
-            url: https://netbeans.apache.org/download/index.html
-            version-pattern: "Apache NetBeans ([0-9.]+)"
-            url-template: https://downloads.apache.org/netbeans/netbeans/$version/netbeans-$version-bin.zip
-        - type: "file"
-          path: "org.apache.netbeans.metainfo.xml"
-        - type: "file"
-          path: "org.apache.netbeans.desktop"
-        - type: "script"
-          dest-filename: "netbeans-desktop"
-          commands: 
-            - "exec /app/netbeans/bin/netbeans  --jdkhome /app/jdk \"$@\""
-      build-options: 
-        no-debuginfo: true
+app-id: org.apache.netbeans
+runtime: org.freedesktop.Sdk
+runtime-version: '21.08'
+sdk: org.freedesktop.Sdk
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.openjdk11
+command: netbeans-desktop
+separate-locales: false
+finish-args:
+  - --share=ipc
+  - --socket=x11
+  - --share=network
+  - --device=dri
+  - --filesystem=host
+  - --talk-name=org.freedesktop.Notifications
+  - --talk-name=org.freedesktop.secrets
+  - --filesystem=xdg-run/keyring
+  - --device=all
+modules:
+  - name: openjdk
+    buildsystem: simple
+    build-commands:
+      - /usr/lib/sdk/openjdk11/installjdk.sh
+  - name: icns
+    sources:
+      - type: git
+        url: https://git.code.sf.net/p/icns/code
+        commit: '194962'
+    cleanup:
+      - '*'
+  - name: netbeans
+    buildsystem: simple
+    build-commands:
+      - install -dm755 /app/bin
+      - install -dm755 /app/netbeans
+      - cp -r * /app/netbeans/
+      - chmod -R a-s,go+rX,go-w /app/netbeans
+      - icns2png -x -o . -d 32 -s 512x512 nb/netbeans.icns
+      - icns2png -x -o . -d 32 -s 256x256 nb/netbeans.icns
+      - icns2png -x -o . -d 32 -s 32x32 nb/netbeans.icns
+      - icns2png -x -o . -d 32 -s 16x16 nb/netbeans.icns
+      - install -Dm644 netbeans_512x512x32.png /app/share/icons/hicolor/512x512/apps/org.apache.netbeans.png
+      - install -Dm644 netbeans_256x256x32.png /app/share/icons/hicolor/256x256/apps/org.apache.netbeans.png
+      - install -Dm644 netbeans_32x32x32.png /app/share/icons/hicolor/32x32/apps/org.apache.netbeans.png
+      - install -Dm644 netbeans_16x16x32.png /app/share/icons/hicolor/16x16/apps/org.apache.netbeans.png
+      - install -Dm644 org.apache.netbeans.desktop /app/share/applications/org.apache.netbeans.desktop
+      - install -Dm644 org.apache.netbeans.metainfo.xml /app/share/metainfo/org.apache.netbeans.metainfo.xml
+      - install -m755 netbeans-desktop /app/bin/netbeans-desktop
+    sources:
+      - type: archive
+        url: https://downloads.apache.org/netbeans/netbeans/12.6/netbeans-12.6-bin.zip
+        sha512: 3186f6281c7008d8a3aa2ca7df2b291c1c72b4bb82cd38ebf744c33fd477ed38b8cb859740ed27bb8c498ff3f59354a70627a6f16b775207b5cd2813ebeaa7fc
+        x-checker-data:
+          type: html
+          url: https://netbeans.apache.org/download/index.html
+          version-pattern: Apache NetBeans ([0-9.]+)
+          url-template: https://downloads.apache.org/netbeans/netbeans/$version/netbeans-$version-bin.zip
+        sha256: 95ea3f8aab954ee44e68ee2f2a8828e46f91fda86efa9312b1186e7736ab8b49
+      - type: file
+        path: org.apache.netbeans.metainfo.xml
+      - type: file
+        path: org.apache.netbeans.desktop
+      - type: script
+        dest-filename: netbeans-desktop
+        commands:
+          - exec /app/netbeans/bin/netbeans  --jdkhome /app/jdk "$@"
+    build-options:
+      no-debuginfo: true
 
