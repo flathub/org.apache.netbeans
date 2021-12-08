@@ -34,6 +34,7 @@ modules:
       - install -dm755 /app/bin
       - install -dm755 /app/netbeans
       - cp -r * /app/netbeans/
+      - sed -i -e 's,^netbeans_default_options=",netbeans_default_options="-J-Djava.io.tmpdir=/var/tmp ,' /app/netbeans/etc/netbeans.conf
       - chmod -R a-s,go+rX,go-w /app/netbeans
       - icns2png -x -o . -d 32 -s 512x512 nb/netbeans.icns
       - icns2png -x -o . -d 32 -s 256x256 nb/netbeans.icns
