@@ -34,7 +34,8 @@ modules:
       - install -dm755 /app/bin
       - install -dm755 /app/netbeans
       - cp -r * /app/netbeans/
-      - sed -i -e 's,^netbeans_default_options=",netbeans_default_options="-J-Djava.io.tmpdir=/var/tmp ,' /app/netbeans/etc/netbeans.conf
+      - sed -i -e 's,^netbeans_default_options=",netbeans_default_options="-J-Djava.io.tmpdir=/var/tmp
+        ,' /app/netbeans/etc/netbeans.conf
       - chmod -R a-s,go+rX,go-w /app/netbeans
       - icns2png -x -o . -d 32 -s 512x512 nb/netbeans.icns
       - icns2png -x -o . -d 32 -s 256x256 nb/netbeans.icns
@@ -49,8 +50,8 @@ modules:
       - install -m755 netbeans-desktop /app/bin/netbeans-desktop
     sources:
       - type: archive
-        url: https://downloads.apache.org/netbeans/netbeans/13/netbeans-13-bin.zip
-        sha256: 59d8d57410c27429135a1594262673c6e07f47972b4f05f08225c9b56e2f6bd0
+        url: https://downloads.apache.org/netbeans/netbeans/14/netbeans-14-bin.zip
+        sha256: 80139bd04c2c2cdbde842c83cdc64f8712690714bd6216f83bf2e9c5a413a4d0
         x-checker-data:
           type: html
           url: https://netbeans.apache.org/download/index.html
