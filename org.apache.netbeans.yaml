@@ -50,8 +50,8 @@ modules:
       - install -m755 netbeans-desktop /app/bin/netbeans-desktop
     sources:
       - type: archive
-        url: https://downloads.apache.org/netbeans/netbeans/18/netbeans-18-bin.zip
-        sha256: 09358e5b5bdddb4d2865962a0d14f8c2aaf8bf923700080472a03faa2f4879ff
+        url: https://downloads.apache.org/netbeans/netbeans/19/netbeans-19-bin.zip
+        sha256: 8df70edd6307d08af5f957e96616917329132284e6c40e432bc64ef28acfd498
         x-checker-data:
           type: html
           url: https://netbeans.apache.org/download/index.html
