@@ -4,6 +4,7 @@
   <id>org.apache.netbeans.desktop</id>
   <metadata_license>CC-BY-SA-3.0</metadata_license>
   <project_license>Apache-2.0</project_license>
+  <launchable type="desktop-id">org.apache.netbeans.desktop</launchable>
   <name>NetBeans</name>
   <summary>NetBeans - Apache Java IDE. Fits the Pieces Together</summary>
   <description>
@@ -47,8 +48,8 @@
     <release version="12.5" date="2021-09-13">
       <url type="details">http://netbeans.apache.org/download/nb125/index.html</url>
       <description>
-<p>Java Enhancements
-<p>Java
+<p>Java Enhancements</p>
+<p>Java</p>
 <ul>
 <li>Temporarily allow setting of SecurityManager: https://github.com/apache/netbeans/pull/3003 </li>
 <li> [NETBEANS-5661] - Added regular expression window and hint: https://github.com/apache/netbeans/pull/2953</li>
@@ -57,8 +58,7 @@
 <li>[NETBEANS-5832] Fixing compilation of static initializer for vanilla indexing.: https://github.com/apache/netbeans/pull/3054</li>
 <li>Adding declarative Java hints to the LSP server: https://github.com/apache/netbeans/pull/2905</li>
 </ul>
-</p>
-<p>Gradle
+<p>Gradle</p>
 <ul>
 <li>Report progress from Gradle’s CreateFromTemplateHandler Gradle LSP bug: https://github.com/apache/netbeans/pull/3044</li>
 <li>Fixed source+javadoc Gradle download Gradle LSP bug: https://github.com/apache/netbeans/pull/3040</li>
@@ -72,43 +72,36 @@
 <li>[NETBEANS-5668] Fix slipping &lt;br/&gt;-s in the Project Problem Dialog Gradle: https://github.com/apache/netbeans/pull/2944</li>
 <li>[NETBEANS-4252] Added PathFinder to Gradle Build Scripts Node Gradle: https://github.com/apache/netbeans/pull/2933</li>
 </ul>
-</p>
-<p>Maven
+<p>Maven</p>
 <ul>
 <li>Support for disabling actions in Maven (used by Micronaut) API Change Maven enhancement: https://github.com/apache/netbeans/pull/3016</li>
 <li>[NETBEANS-5803] Handle Maven projects with https name space. Maven: https://github.com/apache/netbeans/pull/3012</li>
 <li>[NETBEANS-5143] Fixes Maven web app twice deployment issue: https://github.com/apache/netbeans/pull/3005 </li>
 </ul>
-</p>
-<p>Micronaut
+<p>Micronaut</p>
 <ul>
 <li>Support for Micronaut’s automatic restarts (mn:run) for Maven API Change Java Maven enhancement: https://github.com/apache/netbeans/pull/2948</li>
 <li>LSP: Provide hover information in Micronaut yaml files. LSP: https://github.com/apache/netbeans/pull/2955</li>
 <li>Micronaut configuration completion and navigation improvements LSP: https://github.com/apache/netbeans/pull/2962</li>
 <li>Micronaut: Allow for creating project on JDK 16.: https://github.com/apache/netbeans/pull/3058</li>
 </ul>
-</p>
-<p>Payara
+<p>Payara</p>
 <ul>
 <li>Fixes fetching the Payara Server list in private network: https://github.com/apache/netbeans/pull/3018</li>
 </ul>
-</p>
-</p>
-<p>PHP Enhancements
+<p>PHP Enhancements</p>
 <ul>
 <li>[NETBEANS-5678] Use the URL of the forked repository of the Skeleton Generator: https://github.com/apache/netbeans/pull/3052 </li>
 <li>[NETBEANS-5719] Unused property hint is shown when the property is used as a constructor argument: https://github.com/apache/netbeans/pull/3065 </li>
 <li>[NETBEANS-5480] Add an option(system property) to disable the feature to fold PHP tags: https://github.com/apache/netbeans/pull/3069 </li>
 </ul>
-</p>
-<p>C/C++ Enhancements
+<p>C/C++ Enhancements</p>
 <ul>
 <li>Fixing newly created cpplite project, avoiding starting the C/C++ LSP server when the configuration is not readable: https://github.com/apache/netbeans/pull/2877</li>
 <li>In cpplite project, when reading configuration, an empty string should not be considered a valid configuration: https://github.com/apache/netbeans/pull/2904 </li>
 </ul>
-</p>
-<p>Miscellaneous Enhancements
-<p>General
+<p>Miscellaneous Enhancements</p>
+<p>General</p>
 <ul>
 <li>LSP: Find usages should search also in project dependecies. LSP: https://github.com/apache/netbeans/pull/2950</li>
 <li>[NETBEANS-5492] change test proxy connection url to apache: https://github.com/apache/netbeans/pull/2830</li>
@@ -119,8 +112,7 @@
 <li>[NETBEANS-5726] Fix JCheckboxMenuItem state for 'Show Editor Tooolbar': https://github.com/apache/netbeans/pull/2979</li>
 <li>[NETBEANS-4150] added a KeyringProvider using libsecret for new versions of Gnome: https://github.com/apache/netbeans/pull/2906</li>
 </ul>
-</p>
-<p>VSCode
+<p>VSCode</p>
 <ul>
 <li>Add Run with configuration into code lenses.: https://github.com/apache/netbeans/pull/2995</li>
 <li>Completion provider for VS Code’s launch.json.: https://github.com/apache/netbeans/pull/3025</li>
@@ -129,8 +121,7 @@
 <li>Run/Debug single .java files outside of project in VSCode.: https://github.com/apache/netbeans/pull/2938</li>
 <li>[NETBEANS-5346] Debugger attach in VSCode extension.: https://github.com/apache/netbeans/pull/2978</li>
 </ul>
-</p>
-<p>Libraries
+<p>Libraries</p>
 <ul>
 <li>[NETBEANS-5503] Update JUnit from 4.13.1 to 4.13.2 Upgrade Library: https://github.com/apache/netbeans/pull/2831</li>
 <li>Upgrading Graal.js to 20.3 LTS version: https://github.com/apache/netbeans/pull/2707</li>
@@ -138,8 +129,6 @@
 <li>Improving usability of New from Template in VSNetBeans.: https://github.com/apache/netbeans/pull/3010</li>
 <li>Jakarta EE 9 GlassFish 6 Support: https://github.com/apache/netbeans/pull/2902</li>
 </ul>
-</p>
-</p>
       </description>
     </release>
     <release version="12.4" date="2021-05-19">
