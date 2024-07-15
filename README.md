@@ -4,7 +4,7 @@ Flatpak for Apache NetBeans (https://netbeans.apache.org/)
 ## How to build Apache NetBeans
 
 ```
-flatpak-builder --repo=repo flatpakbuildir org.apache.netbeans.json --force-clean
+flatpak-builder --repo=repo flatpakbuildir org.apache.netbeans.yaml --force-clean
 ```
 
 ## Add Apache NetBeans repo to remote
