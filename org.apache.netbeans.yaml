@@ -1,9 +1,9 @@
 app-id: org.apache.netbeans
 runtime: org.freedesktop.Sdk
-runtime-version: '22.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk11
+  - org.freedesktop.Sdk.Extension.openjdk21
 command: netbeans-desktop
 separate-locales: false
 finish-args:
