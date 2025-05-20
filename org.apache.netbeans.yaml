@@ -47,8 +47,8 @@ modules:
       - install -m755 netbeans-desktop /app/bin/netbeans-desktop
     sources:
       - type: archive
-        url: https://downloads.apache.org/netbeans/netbeans/25/netbeans-25-bin.zip
-        sha256: 3eaf50208cc71b58bedf31799fec94235d28a0389ca8834060063f4c705ec6ce
+        url: https://downloads.apache.org/netbeans/netbeans/26/netbeans-26-bin.zip
+        sha256: 555ef79767315ef08ae41ca8ad9acf6f44c80618e11e9bd693827d7cf4cb340c
         x-checker-data:
           type: html
           url: https://netbeans.apache.org/download/index.html
