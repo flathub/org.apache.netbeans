@@ -33,8 +33,11 @@
   <url type="homepage">https://netbeans.apache.org/</url>
   <update_contact>desertconsulting@gmail.com</update_contact>
   <releases>
-    <release version="25" date="2025-02-14">
+    <release version="26" date="2025-05-14">
       <description></description>
+    </release>
+    <release version="25" date="2025-02-14">
+      <description/>
     </release>
     <release version="24" date="2024-12-05">
       <description/>
