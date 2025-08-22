@@ -34,7 +34,7 @@
   <update_contact>desertconsulting@gmail.com</update_contact>
   <releases>
     <release version="27" date="2025-08-16">
-      <description></description>
+      <description/>
     </release>
     <release version="26" date="2025-05-14">
       <description/>
@@ -148,35 +148,30 @@
     </release>
     <release version="12.4" date="2021-05-19">
       <description>
-
-Java Enhancements
-Java 16 Support
-    Java 16, the latest release of Java at the time of Apache NetBeans 12.4, is supported, including nb-javac which has been upgraded to support Java 16. nbjavac-upgrade-to-jdk-16: https://github.com/apache/netbeans/pull/2899
+<p><e>Java Enhancements</e></p>
+<p>Java 16 Support</p>
+    <p>Java 16, the latest release of Java at the time of Apache NetBeans 12.4, is supported, including nb-javac which has been upgraded to support Java 16. nbjavac-upgrade-to-jdk-16: https://github.com/apache/netbeans/pull/2899
 
     Replace usage of JDK internal, or in-house Base64 codecs by java.util.Base64: https://github.com/apache/netbeans/pull/2874
+</p>
+<p>Install OpenJDK</p>
 
-Install OpenJDK
+<p>Go to Tools | Java Platform, click Add Platform, and then "Remote Universal OpenJDK Service", and you’ll be able to download and register OpenJDK distros of your choice. https://github.com/apache/netbeans/pull/2854 https://github.com/apache/netbeans/pull/2896
+Jakarta EE</p>
 
-Go to Tools | Java Platform, click Add Platform, and then "Remote Universal OpenJDK Service", and you’ll be able to download and register OpenJDK distros of your choice. https://github.com/apache/netbeans/pull/2854 https://github.com/apache/netbeans/pull/2896
-Jakarta EE
+<p><e>Jakarta EE 9 Project Support: https://github.com/apache/netbeans/pull/2684</e></p>
+<p>Micronaut</p>
 
-Jakarta EE 9 Project Support: https://github.com/apache/netbeans/pull/2684
-Micronaut
-
-In the New Project dialog, choose "Java with Maven" and then "Micronaut Project", to get started with Micronaut development in Apache NetBeans 12.4.
-
-    New Micronaut project wizard
-
-    Code completion in Micronaut yaml config files implemented
-
-    HyperlinkProvider for Micronaut yaml config files implemented
-
-    WhereUsed RefactoringPlugin for Micronaut yaml config files implemented
-
-https://github.com/apache/netbeans/pull/2812
-Payara
-
-Automatically detect &amp; list Payara Platform version in the server registration panel: https://github.com/apache/netbeans/pull/2409
+<p>In the New Project dialog, choose "Java with Maven" and then "Micronaut Project", to get started with Micronaut development in Apache NetBeans 12.4.</p>
+<ul>
+    <li>New Micronaut project wizard</li>
+    <li>Code completion in Micronaut yaml config files implemented</li>
+    <li>HyperlinkProvider for Micronaut yaml config files implemented</li>
+    <li>WhereUsed RefactoringPlugin for Micronaut yaml config files implemented</li>
+</ul>
+<p>https://github.com/apache/netbeans/pull/2812
+Payara</p>
+<p>Automatically detect &amp; list Payara Platform version in the server registration panel: https://github.com/apache/netbeans/pull/2409
 Maven
 
     Support for VM/app argument injection to (Maven) run and debug project actions: https://github.com/apache/netbeans/pull/2731
@@ -238,13 +233,13 @@ Error Notifications
     Always display errors as an icon in bottom right corner in development builds: https://github.com/apache/netbeans/pull/2888
 
 
-          
+</p>
       </description>
     </release>
 
     <release version="12.3" date="2021-03-12">
         <description>
-          Java
+          <p>Java
   LSP/VS Code Integration
   Apache NetBeans Language Server enhancements.
   
@@ -373,11 +368,12 @@ Error Notifications
   Cleanup imports in the Enterprise Web.Monitor module: https://github.com/apache/netbeans/pull/2608
   
   Cleanup Vector raw type warnings: https://github.com/apache/netbeans/pull/2611
+          </p>
         </description>
       </release>
     <release version="12.2" date="2020-12-08">
       <description>
-        Highlights
+        <p>Highlights
         The full list of pull requests integrated in the 12.2 timeframe is found here, while the highlights are listed below.
 
         Java Language
@@ -507,11 +503,12 @@ Error Notifications
         Update to the Mac OS X installer. As it was failing on Big Sur: https://github.com/apache/netbeans/pull/2353
 
         Avoiding use of Nashorn. Nashorn was removed in JDK 15, applicable to J2SE multi-module: https://github.com/apache/netbeans/pull/2322
+      </p>
   </description>
 </release>
     <release version="12.1" date="2020-10-03">
       <description>
-        Jakarta EE 8
+        <p>Jakarta EE 8
 
         Ability to create a Jakarta EE 8 project
         Change an existing Maven web application to Jakarta EE 8.
@@ -553,6 +550,7 @@ Error Notifications
     Miscellaneous
 
         Launcher detects JDK installed by SDKMAN on Linux and Mac.
+        </p>
       </description>
     </release>
     <release version="12.0" date="2020-06-09">
