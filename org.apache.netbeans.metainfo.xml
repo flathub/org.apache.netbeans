@@ -148,7 +148,7 @@
     </release>
     <release version="12.4" date="2021-05-19">
       <description>
-<p><e>Java Enhancements</e></p>
+<p><em>Java Enhancements</em></p>
 <p>Java 16 Support</p>
     <p>Java 16, the latest release of Java at the time of Apache NetBeans 12.4, is supported, including nb-javac which has been upgraded to support Java 16. nbjavac-upgrade-to-jdk-16: https://github.com/apache/netbeans/pull/2899
 
@@ -159,7 +159,7 @@
 <p>Go to Tools | Java Platform, click Add Platform, and then "Remote Universal OpenJDK Service", and you’ll be able to download and register OpenJDK distros of your choice. https://github.com/apache/netbeans/pull/2854 https://github.com/apache/netbeans/pull/2896
 Jakarta EE</p>
 
-<p><e>Jakarta EE 9 Project Support: https://github.com/apache/netbeans/pull/2684</e></p>
+<p><em>Jakarta EE 9 Project Support: https://github.com/apache/netbeans/pull/2684</em></p>
 <p>Micronaut</p>
 
 <p>In the New Project dialog, choose "Java with Maven" and then "Micronaut Project", to get started with Micronaut development in Apache NetBeans 12.4.</p>
