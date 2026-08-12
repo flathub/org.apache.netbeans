@@ -4,7 +4,6 @@ runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk
-  - org.freedesktop.Sdk.Extension.openjdk25
 command: netbeans-desktop
 separate-locales: false
 finish-args:
@@ -21,7 +20,7 @@ modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk25/installjdk.sh
+      - /usr/lib/sdk/openjdk/installjdk.sh
   - name: icns
     sources:
       - type: git
@@ -47,8 +46,8 @@ modules:
       - install -m755 netbeans-desktop /app/bin/netbeans-desktop
     sources:
       - type: archive
-        url: https://downloads.apache.org/netbeans/netbeans/30/netbeans-30-bin.zip
-        sha256: ab951fc75bdd2ed53be7e4e47e22815aeeb923b1c3e724bf0536c65ccd5cd466
+        url: https://downloads.apache.org/netbeans/netbeans/31/netbeans-31-bin.zip
+        sha512: 108edccc78075b0bc87e3e055170fd03c17442cd1748b68297b49ebe003f8fa5cc7cb265c2fbbe2d5c802d0b29fe5654b89a78a8fd92b784147a7a982f1a42df
         x-checker-data:
           type: html
           url: https://netbeans.apache.org/download/index.html
