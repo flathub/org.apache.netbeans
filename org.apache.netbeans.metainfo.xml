@@ -33,6 +33,10 @@
   <url type="homepage">https://netbeans.apache.org/</url>
   <update_contact>desertconsulting@gmail.com</update_contact>
   <releases>
+    <release version="32" date="2026-11-16">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/32</url>
+      <description></description>
+    </release>  
     <release version="31" date="2026-08-12">
       <url type="details">https://github.com/apache/netbeans/releases/tag/31</url>
       <description></description>
