@@ -8,13 +8,12 @@ command: netbeans-desktop
 separate-locales: false
 finish-args:
   - --share=ipc
-  - --socket=x11
   - --share=network
-  - --filesystem=host
-  - --talk-name=org.freedesktop.Notifications
-  - --talk-name=org.freedesktop.secrets
-  - --filesystem=xdg-run/keyring
+  - --socket=x11
+  - --socket=ssh-auth
   - --device=all
+  - --filesystem=host
+  - --talk-name=org.freedesktop.secrets
 modules:
   - name: openjdk
     buildsystem: simple
@@ -24,7 +23,7 @@ modules:
     sources:
       - type: git
         url: https://git.code.sf.net/p/icns/code
-        commit: '194962'
+        commit: 1949625d81edb0b8d92fe60ca51088cbf64986a5
     cleanup:
       - '*'
   - name: netbeans
@@ -45,13 +44,13 @@ modules:
       - install -m755 netbeans-desktop /app/bin/netbeans-desktop
     sources:
       - type: archive
-        url: https://downloads.apache.org/netbeans/netbeans/32/netbeans-32-bin.zip
+        url: https://archive.apache.org/dist/netbeans/netbeans/32/netbeans-32-bin.zip
         sha512: f4a7e6587492e5f88776e16a0d1c702fd82a83bfdc176d621e7764fb93318c22999371e00f06576053cad2a8aa28c85db4ef4ed125b4568948c9f1cd8f3f0c24
         x-checker-data:
           type: html
           url: https://netbeans.apache.org/download/index.html
           version-pattern: Apache NetBeans ([0-9.]+)
-          url-template: https://downloads.apache.org/netbeans/netbeans/$version/netbeans-$version-bin.zip
+          url-template: https://archive.apache.org/dist/netbeans/netbeans/$version/netbeans-$version-bin.zip
       - type: file
         path: org.apache.netbeans.metainfo.xml
       - type: file
@@ -59,7 +58,6 @@ modules:
       - type: script
         dest-filename: netbeans-desktop
         commands:
-          - exec /app/netbeans/bin/netbeans  --jdkhome /app/jdk "$@"
+          - exec /app/netbeans/bin/netbeans --jdkhome /app/jdk "$@"
     build-options:
       no-debuginfo: true
-

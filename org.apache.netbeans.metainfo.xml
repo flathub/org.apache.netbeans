@@ -5,576 +5,127 @@
   <metadata_license>CC-BY-SA-3.0</metadata_license>
   <project_license>Apache-2.0</project_license>
   <launchable type="desktop-id">org.apache.netbeans.desktop</launchable>
-  <name>NetBeans</name>
-  <summary>NetBeans - Apache Java IDE. Fits the Pieces Together</summary>
+  <name>Apache NetBeans</name>
+  <summary>IDE for Java, PHP, HTML5, JavaScript and more</summary>
   <description>
-    <p>
-          Quickly and easily develop desktop, mobile and web applications
-          with Java, JavaScript, HTML5, PHP, C/C++ and more.
-        </p>
+    <p>Apache NetBeans is a free, open-source integrated development environment (IDE) for quickly and easily developing desktop, web and server-side applications as well as cloud-ready services with Java, JavaScript, HTML5, PHP and more.</p>
+    <ul>
+      <li>First-class support for Java, JavaScript, PHP, HTML5 and more</li>
+      <li>Editors, wizards and templates to help you create applications</li>
+      <li>Integrated debugger and profiler</li>
+      <li>Git integration</li>
+      <li>Light and dark themes</li>
+      <li>Extensible via plugins</li>
+    </ul>
   </description>
   <screenshots>
     <screenshot type="default">
-      <caption>New Dark Theme</caption>
-      <image>https://i.ibb.co/5vyjZZ5/nb12-darktheme.png</image>
+      <caption>Java Development</caption>
+      <image>https://raw.githubusercontent.com/flathub/org.apache.netbeans/b40a51eaff3136130b497ca89b4c89d40ffcf17d/data/screenshots/netbeans-1.png</image>
     </screenshot>
-
     <screenshot>
-      <caption>Add Server Instance</caption>
-      <image>https://i.ibb.co/HD4vRMq/nb12-new-server.png</image>
+      <caption>HTML &amp; JavaScript Development</caption>
+      <image>https://raw.githubusercontent.com/flathub/org.apache.netbeans/b40a51eaff3136130b497ca89b4c89d40ffcf17d/data/screenshots/netbeans-2.png</image>
     </screenshot>
-
     <screenshot>
-      <caption>Create new application</caption>
-      <image>https://netbeans.apache.org/download/nb120/new-java-ee-8.png</image>
+      <caption>PHP Development</caption>
+      <image>https://raw.githubusercontent.com/flathub/org.apache.netbeans/b40a51eaff3136130b497ca89b4c89d40ffcf17d/data/screenshots/netbeans-3.png</image>
     </screenshot>
-
+    <screenshot>
+      <caption>Dark Theme</caption>
+      <image>https://raw.githubusercontent.com/flathub/org.apache.netbeans/b40a51eaff3136130b497ca89b4c89d40ffcf17d/data/screenshots/netbeans-4.png</image>
+    </screenshot>
   </screenshots>
   <url type="homepage">https://netbeans.apache.org/</url>
   <update_contact>desertconsulting@gmail.com</update_contact>
   <releases>
     <release version="32" date="2026-11-16">
       <url type="details">https://github.com/apache/netbeans/releases/tag/32</url>
-      <description></description>
-    </release>  
+      <description/>
+    </release>
     <release version="31" date="2026-08-12">
       <url type="details">https://github.com/apache/netbeans/releases/tag/31</url>
-      <description></description>
-    </release>  
+      <description/>
+    </release>
     <release version="30" date="2026-05-11">
-      <description></description>
+      <url type="details">https://github.com/apache/netbeans/releases/tag/30</url>
+      <description/>
     </release>
     <release version="29" date="2026-02-19">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/29</url>
       <description/>
     </release>
     <release version="28" date="2025-11-05">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/28</url>
       <description/>
     </release>
     <release version="27" date="2025-08-16">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/27</url>
       <description/>
     </release>
     <release version="26" date="2025-05-14">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/26</url>
       <description/>
     </release>
     <release version="25" date="2025-02-14">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/25</url>
       <description/>
     </release>
     <release version="24" date="2024-12-05">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/24</url>
       <description/>
     </release>
     <release version="23" date="2024-09-13">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/23</url>
       <description/>
     </release>
     <release version="22" date="2024-05-23">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/22</url>
       <description/>
     </release>
-    <release version="20" date="2023-11-23"/>
-    <release version="19" date="2023-08-25"/>
-    <release version="18" date="2023-05-22"/>
-    <release version="17" date="2023-02-15"/>
-    <release version="16" date="2022-11-21"/>
-    <release version="15" date="2022-08-27"/>
-    <release version="14" date="2022-06-01"/>
-    <release version="13" date="2022-02-22"/>
+    <release version="21" date="2024-02-20">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/21</url>
+      <description/>
+    </release>
+    <release version="20" date="2023-11-23">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/20</url>
+      <description/>
+    </release>
+    <release version="19" date="2023-08-25">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/19</url>
+      <description/>
+    </release>
+    <release version="18" date="2023-05-22">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/18</url>
+      <description/>
+    </release>
+    <release version="17" date="2023-02-15">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/17</url>
+      <description/>
+    </release>
+    <release version="16" date="2022-11-21">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/16</url>
+      <description/>
+    </release>
+    <release version="15" date="2022-08-27">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/15</url>
+      <description/>
+    </release>
+    <release version="14" date="2022-06-01">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/14</url>
+      <description/>
+    </release>
+    <release version="13" date="2022-02-22">
+      <url type="details">https://github.com/apache/netbeans/releases/tag/13</url>
+      <description/>
+    </release>
     <release version="12.6" date="2021-11-22"/>
-    <release version="12.5" date="2021-09-13">
-      <url type="details">http://netbeans.apache.org/download/nb125/index.html</url>
-      <description>
-<p>Java Enhancements</p>
-<p>Java</p>
-<ul>
-<li>Temporarily allow setting of SecurityManager: https://github.com/apache/netbeans/pull/3003 </li>
-<li> [NETBEANS-5661] - Added regular expression window and hint: https://github.com/apache/netbeans/pull/2953</li>
-<li>Prefer .class execution over .java if the class already exists: https://github.com/apache/netbeans/pull/3036</li>
-<li>[NETBEANS-5704] when generating --patch-module option, also use the generated source roots. Java: https://github.com/apache/netbeans/pull/2977</li>
-<li>[NETBEANS-5832] Fixing compilation of static initializer for vanilla indexing.: https://github.com/apache/netbeans/pull/3054</li>
-<li>Adding declarative Java hints to the LSP server: https://github.com/apache/netbeans/pull/2905</li>
-</ul>
-<p>Gradle</p>
-<ul>
-<li>Report progress from Gradle’s CreateFromTemplateHandler Gradle LSP bug: https://github.com/apache/netbeans/pull/3044</li>
-<li>Fixed source+javadoc Gradle download Gradle LSP bug: https://github.com/apache/netbeans/pull/3040</li>
-<li>Source/javadoc attacher must report download actions as enabled. Gradle Java bug: https://github.com/apache/netbeans/pull/3029</li>
-<li>Gradle Action Providers can disable an action. API Change Gradle enhancement: https://github.com/apache/netbeans/pull/3004</li>
-<li>LSP server informs client about unsuccessful launch. Gradle LSP: https://github.com/apache/netbeans/pull/3006</li>
-<li>Prevent deadlock - Workspace shared IO supports close on input stream. Gradle LSP: https://github.com/apache/netbeans/pull/3019</li>
-<li>Support for configurations in Gradle Gradle LSP enhancement: https://github.com/apache/netbeans/pull/2969</li>
-<li>[NETBEANS-5768] Recognize gradle projects with settings.gradle only file: https://github.com/apache/netbeans/pull/3028</li>
-<li>[NETBEANS-2373] Better than nothing support for Gradle Distribution dirs Gradle: https://github.com/apache/netbeans/pull/2920</li>
-<li>[NETBEANS-5668] Fix slipping &lt;br/&gt;-s in the Project Problem Dialog Gradle: https://github.com/apache/netbeans/pull/2944</li>
-<li>[NETBEANS-4252] Added PathFinder to Gradle Build Scripts Node Gradle: https://github.com/apache/netbeans/pull/2933</li>
-</ul>
-<p>Maven</p>
-<ul>
-<li>Support for disabling actions in Maven (used by Micronaut) API Change Maven enhancement: https://github.com/apache/netbeans/pull/3016</li>
-<li>[NETBEANS-5803] Handle Maven projects with https name space. Maven: https://github.com/apache/netbeans/pull/3012</li>
-<li>[NETBEANS-5143] Fixes Maven web app twice deployment issue: https://github.com/apache/netbeans/pull/3005 </li>
-</ul>
-<p>Micronaut</p>
-<ul>
-<li>Support for Micronaut’s automatic restarts (mn:run) for Maven API Change Java Maven enhancement: https://github.com/apache/netbeans/pull/2948</li>
-<li>LSP: Provide hover information in Micronaut yaml files. LSP: https://github.com/apache/netbeans/pull/2955</li>
-<li>Micronaut configuration completion and navigation improvements LSP: https://github.com/apache/netbeans/pull/2962</li>
-<li>Micronaut: Allow for creating project on JDK 16.: https://github.com/apache/netbeans/pull/3058</li>
-</ul>
-<p>Payara</p>
-<ul>
-<li>Fixes fetching the Payara Server list in private network: https://github.com/apache/netbeans/pull/3018</li>
-</ul>
-<p>PHP Enhancements</p>
-<ul>
-<li>[NETBEANS-5678] Use the URL of the forked repository of the Skeleton Generator: https://github.com/apache/netbeans/pull/3052 </li>
-<li>[NETBEANS-5719] Unused property hint is shown when the property is used as a constructor argument: https://github.com/apache/netbeans/pull/3065 </li>
-<li>[NETBEANS-5480] Add an option(system property) to disable the feature to fold PHP tags: https://github.com/apache/netbeans/pull/3069 </li>
-</ul>
-<p>C/C++ Enhancements</p>
-<ul>
-<li>Fixing newly created cpplite project, avoiding starting the C/C++ LSP server when the configuration is not readable: https://github.com/apache/netbeans/pull/2877</li>
-<li>In cpplite project, when reading configuration, an empty string should not be considered a valid configuration: https://github.com/apache/netbeans/pull/2904 </li>
-</ul>
-<p>Miscellaneous Enhancements</p>
-<p>General</p>
-<ul>
-<li>LSP: Find usages should search also in project dependecies. LSP: https://github.com/apache/netbeans/pull/2950</li>
-<li>[NETBEANS-5492] change test proxy connection url to apache: https://github.com/apache/netbeans/pull/2830</li>
-<li>[NETBEANS-5698] Fix tabcontrol painting on MacOS retina displays (Aqua LAF): https://github.com/apache/netbeans/pull/2970</li>
-<li>[NETBEANS-4953] Fixing handling of WSL-based URIs.: https://github.com/apache/netbeans/pull/2988</li>
-<li>[NETBEANS-5673] Modernize tab controls in the Windows LAF: https://github.com/apache/netbeans/pull/2967</li>
-<li>[NETBEANS-5697] Various other LAF/HiDPI improvements on Windows: https://github.com/apache/netbeans/pull/2965</li>
-<li>[NETBEANS-5726] Fix JCheckboxMenuItem state for 'Show Editor Tooolbar': https://github.com/apache/netbeans/pull/2979</li>
-<li>[NETBEANS-4150] added a KeyringProvider using libsecret for new versions of Gnome: https://github.com/apache/netbeans/pull/2906</li>
-</ul>
-<p>VSCode</p>
-<ul>
-<li>Add Run with configuration into code lenses.: https://github.com/apache/netbeans/pull/2995</li>
-<li>Completion provider for VS Code’s launch.json.: https://github.com/apache/netbeans/pull/3025</li>
-<li>Debugger attach needs to be initialized.: https://github.com/apache/netbeans/pull/2991</li>
-<li>New from Template for VSCode.: https://github.com/apache/netbeans/pull/2882</li>
-<li>Run/Debug single .java files outside of project in VSCode.: https://github.com/apache/netbeans/pull/2938</li>
-<li>[NETBEANS-5346] Debugger attach in VSCode extension.: https://github.com/apache/netbeans/pull/2978</li>
-</ul>
-<p>Libraries</p>
-<ul>
-<li>[NETBEANS-5503] Update JUnit from 4.13.1 to 4.13.2 Upgrade Library: https://github.com/apache/netbeans/pull/2831</li>
-<li>Upgrading Graal.js to 20.3 LTS version: https://github.com/apache/netbeans/pull/2707</li>
-<li>[NETBEANS-3439] - Upgrade JavaCC from 3.2 to 7.0.5: https://github.com/apache/netbeans/pull/1662</li>
-<li>Improving usability of New from Template in VSNetBeans.: https://github.com/apache/netbeans/pull/3010</li>
-<li>Jakarta EE 9 GlassFish 6 Support: https://github.com/apache/netbeans/pull/2902</li>
-</ul>
-      </description>
-    </release>
-    <release version="12.4" date="2021-05-19">
-      <description>
-<p><em>Java Enhancements</em></p>
-<p>Java 16 Support</p>
-    <p>Java 16, the latest release of Java at the time of Apache NetBeans 12.4, is supported, including nb-javac which has been upgraded to support Java 16. nbjavac-upgrade-to-jdk-16: https://github.com/apache/netbeans/pull/2899
-
-    Replace usage of JDK internal, or in-house Base64 codecs by java.util.Base64: https://github.com/apache/netbeans/pull/2874
-</p>
-<p>Install OpenJDK</p>
-
-<p>Go to Tools | Java Platform, click Add Platform, and then "Remote Universal OpenJDK Service", and you’ll be able to download and register OpenJDK distros of your choice. https://github.com/apache/netbeans/pull/2854 https://github.com/apache/netbeans/pull/2896
-Jakarta EE</p>
-
-<p><em>Jakarta EE 9 Project Support: https://github.com/apache/netbeans/pull/2684</em></p>
-<p>Micronaut</p>
-
-<p>In the New Project dialog, choose "Java with Maven" and then "Micronaut Project", to get started with Micronaut development in Apache NetBeans 12.4.</p>
-<ul>
-    <li>New Micronaut project wizard</li>
-    <li>Code completion in Micronaut yaml config files implemented</li>
-    <li>HyperlinkProvider for Micronaut yaml config files implemented</li>
-    <li>WhereUsed RefactoringPlugin for Micronaut yaml config files implemented</li>
-</ul>
-<p>https://github.com/apache/netbeans/pull/2812
-Payara</p>
-<p>Automatically detect &amp; list Payara Platform version in the server registration panel: https://github.com/apache/netbeans/pull/2409
-Maven
-
-    Support for VM/app argument injection to (Maven) run and debug project actions: https://github.com/apache/netbeans/pull/2731
-
-    Avoid NPE when executing some Maven projects: https://github.com/apache/netbeans/pull/2833
-
-Gradle
-
-    Upgrade Gradle Tooling to 7.0: https://github.com/apache/netbeans/pull/2861
-
-    Support Gradle Source Groups from Alien Projects: https://github.com/apache/netbeans/pull/2779
-
-    Fix NPE on Gradle settings when no network connection: https://github.com/apache/netbeans/pull/2879
-
-    Upgradle to JaCoCo 0.8.6 for Gradle Code Coverage: https://github.com/apache/netbeans/pull/2893
-
-    Clear NB Non-Project cache when we have more info from Gradle: https://github.com/apache/netbeans/pull/2837
-
-Ant
-
-    Support Ant Freeform projects with source Level 9+: https://github.com/apache/netbeans/pull/2794
-
-    Update nbbuild freeform project to open without errors: https://github.com/apache/netbeans/pull/2798
-
-    Improve Java/Jakarta EE with Ant based projects: https://github.com/apache/netbeans/pull/2491
-
-Web Frontend Enhancements
-PHP Enhancements
-
-    PHP 8.0 Support: Named Arguments: https://github.com/apache/netbeans/pull/2894
-
-    Prevent generating abstract methods with PHPDoc return array type: https://github.com/apache/netbeans/pull/2886
-
-    Improved Fix Uses dialog: https://github.com/apache/netbeans/pull/2755
-
-    Fixed compatibility with Phing 3: https://github.com/apache/netbeans/pull/2776
-
-    Show new configuration files for PHP-CS-Fixer 3 in Important files : https://github.com/apache/netbeans/pull/2880
-
-HTML
-
-    Improved code completion for HTML forms: https://github.com/apache/netbeans/pull/2739
-
-Miscellaneous Enhancements
-Markdown
-
-    Files with extension ".md" are recognized, with a special icon, and basic syntax coloring: https://github.com/apache/netbeans/pull/1428
-
-FlatLaf Enhancements
-
-    Update FlatLaf from 1.0 to 1.1.1 and added "FlatLaf" options: https://github.com/apache/netbeans/pull/2839
-
-    Fix/improve styling of quicksearch field in menubar: https://github.com/apache/netbeans/pull/2900
-
-    Update from 1.1.1 to 1.1.2 and fix/improve options: https://github.com/apache/netbeans/pull/2872
-
-Error Notifications
-
-    Always display errors as an icon in bottom right corner in development builds: https://github.com/apache/netbeans/pull/2888
-
-
-</p>
-      </description>
-    </release>
-
-    <release version="12.3" date="2021-03-12">
-        <description>
-          <p>Java
-  LSP/VS Code Integration
-  Apache NetBeans Language Server enhancements.
-  
-  Actions that introduce code elements are exposed through LSP: https://github.com/apache/netbeans/pull/2647
-  
-  Code generators are exposed through LSP: https://github.com/apache/netbeans/pull/2587
-  
-  Add LSP-based rename refactoring to the Java LSP Server and the LSP Client: https://github.com/apache/netbeans/pull/2600
-  
-  JavaDoc is shown on mouse hover over identifiers: https://github.com/apache/netbeans/pull/2601
-  
-  Folding rangers are exposed through LSP: https://github.com/apache/netbeans/pull/2682
-  
-  LSP Codelens: https://github.com/apache/netbeans/pull/2705
-  
-  Always do save modified files: https://github.com/apache/netbeans/pull/2730
-  
-  Showing completions returned by annotation Processors: https://github.com/apache/netbeans/pull/2736
-  
-  Project problems are resolved in headless environment: https://github.com/apache/netbeans/pull/2652
-  
-  Restart NBLS when an extension providing some NB cluster is installed/uninstalled: https://github.com/apache/netbeans/pull/2698
-  
-  Enable full VSNetBeans Maven build test: https://github.com/apache/netbeans/pull/2585
-  
-  Don’t show reload/save dialogs: I didn’t find the appropriate PR and it’s a too small detail to mention IMHO
-  
-  Properly stop Maven execution from LSP/DAP: https://github.com/apache/netbeans/pull/2679
-  
-  nb-javac
-  Update to (Maven distributed) nbjavac 15.0.0.2: https://github.com/apache/netbeans/pull/2759
-  
-  Fix an issue where permits is treated as a keyword: https://github.com/apache/netbeans/pull/2759
-  
-  Test case for nb-javac for JDK 15: https://github.com/apache/netbeans/pull/2562
-  
-  Gradle
-  Favorite tasks can be added to Gradle Navigator: https://github.com/apache/netbeans/pull/2595
-  
-  Improved Gradle Sub-Project display on large projects: https://github.com/apache/netbeans/pull/2629
-  
-  Fix IAE, when using composite Gradle Builds: https://github.com/apache/netbeans/pull/2606
-  
-  PHP
-  Complete PHP 8.0 syntax is supported, though code completion for attributes and named parameters is not implemented yet.
-  
-  PHP 8.0 Support
-  Constructor Property Promotion: https://github.com/apache/netbeans/pull/2674
-  
-  Named Arguments: https://github.com/apache/netbeans/pull/2704
-  
-  Attribute Syntax: https://github.com/apache/netbeans/pull/2640
-  
-  Allow trailing comma in closure use lists: https://github.com/apache/netbeans/pull/2692
-  
-  Enhancements
-  Show and change the PHP Version of project properties on the status bar: https://github.com/apache/netbeans/pull/2681
-  
-  Added PSR-4 hints: https://github.com/apache/netbeans/pull/2630
-  
-  Use complete Composer package name: https://github.com/apache/netbeans/pull/2583
-  
-  Add the project settings for XML configuration of phpDocumentor: https://github.com/apache/netbeans/pull/2678
-  
-  Mark unused private constants: https://github.com/apache/netbeans/pull/2555
-  
-  PHP debugger - support for resolved breakpoints: https://github.com/apache/netbeans/pull/2665
-  
-  PHP debugger - enable 'return' breakpoint: https://github.com/apache/netbeans/pull/2659
-  
-  PHP debugger - fix display of long strings: https://github.com/apache/netbeans/pull/2673
-  
-  Improved display of array parameter: https://github.com/apache/netbeans/pull/2535
-  
-  Improvements for constants in code completion: https://github.com/apache/netbeans/pull/2536 and https://github.com/apache/netbeans/pull/2578
-  
-  Remove consecutive empty lines when formatting PHP code: https://github.com/apache/netbeans/pull/2573
-  
-  Fixes
-  Shared settings for PHP code generators: https://github.com/apache/netbeans/pull/2691
-  
-  Fix code completion for traits of use and group use statements: https://github.com/apache/netbeans/pull/2533
-  
-  Fix anonymous function formatting: https://github.com/apache/netbeans/pull/2614
-  
-  Fix formatting in executable script: https://github.com/apache/netbeans/pull/2581
-  
-  Cancel Find Usages action: https://github.com/apache/netbeans/pull/2550
-  
-  HTML &amp; CSS
-  CSS Go to Declaration , does not work: https://github.com/apache/netbeans/pull/2616
-  
-  Unselect added files from CDNJS by default: https://github.com/apache/netbeans/pull/2634
-  
-  CSS: Prevent UI blocking on undocumented properties: https://github.com/apache/netbeans/pull/2722
-  
-  Fixed readability of HTML code completion items: https://github.com/apache/netbeans/pull/2719
-  
-  Fix handling of global values: https://github.com/apache/netbeans/pull/2639
-  
-  Fix npm logo size: https://github.com/apache/netbeans/pull/2632
-  
-  C++ Lite
-  Enhancements to the C++ Lite features introduced in 12.1.
-  
-  Completing the CPPLite debugger: threads, variables, watches, tooltips, etc: https://github.com/apache/netbeans/pull/2697
-  
-  Correct the breakpoint functionality in cpplite debugger: https://github.com/apache/netbeans/pull/2726
-  
-  Library Upgrades
-  FlatLaf from 0.31 to 1.0: https://github.com/apache/netbeans/pull/2693, https://github.com/apache/netbeans/pull/2723 and https://github.com/apache/netbeans/pull/2760
-  
-  Groovy from 2.5.11 to 2.5.14: https://github.com/apache/netbeans/pull/2644
-  
-  JAXB from 2.2 to 2.3: https://github.com/apache/netbeans/pull/2586
-  
-  JGit from 5.5.1 to 5.7.0: https://github.com/apache/netbeans/pull/2580
-  
-  Metro from 2.3.1 to 2.4.4: https://github.com/apache/netbeans/pull/2526
-  
-  JUnit from 4.12 to 4.13.1: https://github.com/apache/netbeans/pull/2463/files
-  
-  General Code Cleanup
-  Enable use of generics: https://github.com/apache/netbeans/pull/2194
-  
-  Cleanup imports in the Enterprise Web.Monitor module: https://github.com/apache/netbeans/pull/2608
-  
-  Cleanup Vector raw type warnings: https://github.com/apache/netbeans/pull/2611
-          </p>
-        </description>
-      </release>
-    <release version="12.2" date="2020-12-08">
-      <description>
-        <p>Highlights
-        The full list of pull requests integrated in the 12.2 timeframe is found here, while the highlights are listed below.
-
-        Java Language
-        New JDK 14 and 15-Specific Java Language Features
-        Code coloring. Keywords "sealed", "non-sealed", and "permits" are highlighted conforming to the existing styles of all other Java keywords.
-
-        Code formatting for "sealed" type. Extended the Java code formatting feature to include "sealed" and "permits" clauses for the first time.
-
-        Auto-completion for "sealed" type. Added keyword "sealed" and "non-sealed" before "class" declaration. Added "permits" only in the allowed location, i.e., the "permits" clause is not allowed to be put before "extends" and "implements" clause, if present.
-
-        Enhancement for Record variable. Invoke code completion for "Record" variable name and the editor will analyze the context and then suggest choices that are reachable from the current caret position.
-
-        Fixed Record Formatting issue with use of annotation. https://github.com/apache/netbeans/pull/2391
-
-        Fixed Record Refactoring issue. refactor record rename &amp; move record file to other package: https://github.com/apache/netbeans/pull/2310
-
-        Fixed Record JavaDoc. JavaDoc listing for class-type RECORD on auto completion: https://github.com/apache/netbeans/pull/2412
-
-        nb-javac fork. Now supports JDK 15: https://github.com/apache/netbeans/pull/2408
-
-        New Miscellaneous Java Language Features
-        Show types for chained method invocations. https://github.com/apache/netbeans/pull/2365
-
-        Create new Class/Interface/Enum when copy-paste raw text. https://github.com/apache/netbeans/pull/2334
-
-        Create only one instance of javac. https://github.com/apache/netbeans/pull/2305
-
-        NetBeans Java Features in VS Code
-        Java Editor and Java debugger in VS Code. https://cwiki.apache.org/confluence/display/NETBEANS/Apache+NetBeans+Extension+for+Visual+Studio+Code
-
-        JavaFX
-        Avoid assertion &amp; NPE in fxml code completion. https://github.com/apache/netbeans/pull/2399
-
-        Disallow FXML controller in default package. https://github.com/apache/netbeans/pull/2331
-
-        Include immutable objects for fxml editor identification. https://github.com/apache/netbeans/pull/2333
-
-        Java Web
-        Remove Derby integration from Payara Server modules. https://github.com/apache/netbeans/pull/2425
-
-        Web Project Properties Dialog fails to save Relative URL. https://github.com/apache/netbeans/pull/2423
-
-        JavaServer Faces Catalog fixes. https://github.com/apache/netbeans/pull/2431
-
-        Fix Spring Web MVC 5.2.9 integration. https://github.com/apache/netbeans/pull/2380
-
-        Java Build Systems
-        Added Gradle wrapper distribution change detection: https://github.com/apache/netbeans/pull/2366
-
-        Add JAVA_HOME to Gradle build environment variables: https://github.com/apache/netbeans/pull/2320
-
-        Better way to detect sources and javadocs in Gradle Projects: https://github.com/apache/netbeans/pull/2499
-
-        Fixed Gradle Java Frontend Application generation: https://github.com/apache/netbeans/pull/2485
-
-        Enable run/debug single when the suitable task is provided by the Gradle project: https://github.com/apache/netbeans/pull/2458
-
-        Flush Gradle Standard output in 200ms if it stalled: https://github.com/apache/netbeans/pull/2270
-
-        Handle source type correctly in GradleSourcesImpl: https://github.com/apache/netbeans/pull/2339
-
-        Fix missing artifact nodes in Gradle Project Configurations: https://github.com/apache/netbeans/pull/2490
-
-        Fixing Lombok in Gradle Projects: https://github.com/apache/netbeans/pull/2392
-
-        Arrange Gradle Source info detail tabs to the right: https://github.com/apache/netbeans/pull/2361
-
-        Maven project open use no-lock getModuleName: https://github.com/apache/netbeans/pull/2340
-
-        PHP &amp; JavaScript
-        PHP 8.0 support
-
-        Union Types: https://github.com/apache/netbeans/pull/2319
-
-        Nullsafe operator: https://github.com/apache/netbeans/pull/2446
-
-        Match expression: https://github.com/apache/netbeans/pull/2303
-
-        throw Expression: https://github.com/apache/netbeans/pull/2280
-
-        Non-capturing catches: https://github.com/apache/netbeans/pull/2265
-
-        Allow ::class on objects: https://github.com/apache/netbeans/pull/2295
-
-        Allow trailing comma in parameter list: https://github.com/apache/netbeans/pull/2269
-
-        Static return type: https://github.com/apache/netbeans/pull/2335
-
-        Mixed type: https://github.com/apache/netbeans/pull/2342
-
-        Dependencies and infrastructure of JavaScript and HTML features cleaned up: https://github.com/apache/netbeans/pull/2424
-
-        html parser dont wait for projects open: https://github.com/apache/netbeans/pull/2341
-
-        Removed obsolete Oracle JET support: https://github.com/apache/netbeans/pull/2367
-
-        CSS3 enhancements: https://github.com/apache/netbeans/pull/2299
-
-        Add Plugin for BootsFaces in order to support: https://github.com/apache/netbeans/pull/2357
-
-        Fix broken npm search: https://github.com/apache/netbeans/pull/2286
-
-        Library Upgrades
-        Ant to 1.10.8: https://github.com/apache/netbeans/pull/2315
-
-        exec-maven-plugin from 1.5.0 to 3.0.0: https://github.com/apache/netbeans/pull/2288
-
-        Gradle Tooling API to 6.7: https://github.com/apache/netbeans/pull/2479
-
-        JDBC PostgreSQL from 42.2.10 to 42.2.16: https://github.com/apache/netbeans/pull/2284
-
-        payara-micro-maven-plugin to v1.3.0: https://github.com/apache/netbeans/pull/2454
-
-        Spring Framework to version 4.3.29: https://github.com/apache/netbeans/pull/2374
-
-        Spring Framework to version 5.2.9: https://github.com/apache/netbeans/pull/2373
-
-        TestNG and upgrade from 6.8.1 to 6.14.3: https://github.com/apache/netbeans/pull/2350
-
-        Miscellaneous
-        Fix for Mac OS X Big Sur. Fix call to find jdkhome using /usr/libexec/java_home: https://github.com/apache/netbeans/pull/2547
-
-        Detect JDKs. Installed with SDKMan and Debian: https://github.com/apache/netbeans/pull/2329
-
-        Check unpack200. Warn the user on JDK14+: https://github.com/apache/netbeans/pull/2317
-
-        Update to the Mac OS X installer. As it was failing on Big Sur: https://github.com/apache/netbeans/pull/2353
-
-        Avoiding use of Nashorn. Nashorn was removed in JDK 15, applicable to J2SE multi-module: https://github.com/apache/netbeans/pull/2322
-      </p>
-  </description>
-</release>
-    <release version="12.1" date="2020-10-03">
-      <description>
-        <p>Jakarta EE 8
-
-        Ability to create a Jakarta EE 8 project
-        Change an existing Maven web application to Jakarta EE 8.
-
-    C/C++
-
-    Rudimentary C/C++ feature integration, which does not have as many features as the 8.2 C/C++ support, in other words, this is not fully featured, but it could help some of our users until the full support is complete. When 8.2 C/C++ plugins are installed, they should take precedence in 12.1.
-
-        Rudimentary C/C++ project that allows the user to provide commands for the build/run actions and some additional settings.
-
-        Syntax highlighting using TextMate grammars.
-
-        Code completion and other editing support is through the Language Server Protocol, using the ccls language server, which the users need to provide themselves;
-
-        A *very* rudimentary debugger using gdb (based on the Ant debugger, and gdb interface from CND).
-
-    More details: https://github.com/apache/netbeans/pull/2234
-    Gradle
-
-        Gradle is enabled with Java SE
-        Added support for Generated Directories and proper handling of  annotation processors
-
-    PHP
-
-        Add new actions for Composer (https://github.com/apache/netbeans/pull/2173)
-        Show `false` and `true` instead of `0` and `1` as boolean values in the Variables window of the debugger (https://github.com/apache/netbeans/pull/2178)
-        Improve/Fix code analysis features(e.g.https://github.com/apache/netbeans/pull/2246, https://github.com/apache/netbeans/pull/2249)
-
-    HTML
-
-        Update the validator.jar (https://github.com/apache/netbeans/pull/2217) It would be great if someone verifies it.
-        Enable the code template completion (https://github.com/apache/netbeans/pull/2253)
-        Code completion and syntax highlighting for(https://github.com/apache/netbeans/pull/2184)
-
-    CSS
-
-        Add formatting options (https://github.com/apache/netbeans/pull/2257) only "Tabs And Indents"
-
-    Miscellaneous
-
-        Launcher detects JDK installed by SDKMAN on Linux and Mac.
-        </p>
-      </description>
-    </release>
-    <release version="12.0" date="2020-06-09">
-      <description>
-      <p>Apache NetBeans 12.0 adds support for the latest Java language features, integrates new code donations from Oracle for Java Web development, enhances its best of breed Apache Maven tooling, brings multiple enhancements for users of Gradle, includes built-in features for Payara and WildFly for the first time, introduces new out of the box templates for JavaFX, upgrades and extends its PHP editor, provides new dark look and feel options, and includes a wide range of fixes.All features provided by Apache NetBeans are supported out of the box, without additional plugins needing to be installed, and all for free. Apache NetBeans 12.0 is the first LTS release of NetBeans as a top level Apache project.We would like to thank all contributors, the community, and the Apache Software Foundation for the great co-operation and enthusiasm enabling this complex and exciting project to continue to inspire and be of use to developers all over the world.</p>
-    </description>
-    </release>
+    <release version="12.5" date="2021-09-13"/>
+    <release version="12.4" date="2021-05-19"/>
+    <release version="12.3" date="2021-03-12"/>
+    <release version="12.2" date="2020-12-08"/>
+    <release version="12.1" date="2020-10-03"/>
+    <release version="12.0" date="2020-06-09"/>
     <release version="11.3" date="2020-02-24"/>
     <release version="11.2" date="2019-10-25"/>
     <release version="11.1" date="2019-07-22"/>
@@ -603,10 +154,12 @@ Error Notifications
     <content_attribute id="money-purchasing">none</content_attribute>
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
-  <developer_name>Apache Software Foundation</developer_name>
-  <url type="bugtracker">https://netbeans.apache.org/participate/report-issue.html</url>
-  <url type="donation">https://netbeans.apache.org/participate/index.html</url>
-  <url type="help">https://netbeans.apache.org/help/index.html</url>
+  <developer id="org.apache">
+    <name>Apache Software Foundation</name>
+  </developer>
+  <url type="bugtracker">https://netbeans.apache.org/front/main/participate/report-issue/</url>
+  <url type="donation">https://www.apache.org/foundation/individual-supporters</url>
+  <url type="help">https://netbeans.apache.org/front/main/help/</url>
   <url type="vcs-browser">https://github.com/apache/netbeans</url>
-
+  <url type="contribute">https://netbeans.apache.org/front/main/participate/</url>
 </component>
