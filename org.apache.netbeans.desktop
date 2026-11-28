@@ -1,10 +1,11 @@
 [Desktop Entry]
-Name=NetBeans
-GenericName=NetBeans - Apache Java IDE. Fits the Pieces Together
+Name=Apache NetBeans
+GenericName=Integrated Development Environment
+Comment=Develop applications with Java, JavaScript, HTML5, PHP and more
 Exec=netbeans-desktop
 Terminal=false
 Icon=org.apache.netbeans
 Type=Application
-Categories=Development;
-X-Desktop-File-Install-Version=0.21
-StartupWMClass=netbeans
+Categories=Development;IDE;Java;
+Keywords=IDE;Java;JavaScript;PHP;HTML;Maven;Gradle;Programming;
+StartupWMClass=Apache NetBeans IDE 32
